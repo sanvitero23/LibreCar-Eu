@@ -1,0 +1,6 @@
+{
+  "name": "Glucosa Android Auto",
+  "description": "Monitor continuo de glucosa para Android: Foreground Service persistente, caché local Room SQLite, widgets de escritorio de actualización pasiva y notificaciones de alta prioridad compatibles con audio del sistema, sin simulación de procesos mágicos ni drenaje de batería.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.GlucosaAndroidAuto" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">#0F172A</item> <!-- Slate 900 status bar -->
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowBackground">#030712</item> <!-- Gray 950 window background -->
+    </style>
+</resources>
