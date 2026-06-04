@@ -93,6 +93,9 @@ class GlucoseForegroundService : LifecycleService(), TextToSpeech.OnInitListener
             PendingIntent.FLAG_IMMUTABLE or PendingIntent.FLAG_UPDATE_CURRENT
         )
 
+        val carExtender = NotificationCompat.CarExtender()
+            .setColor(Color.parseColor("#10B981"))
+
         return NotificationCompat.Builder(this, CHANNEL_ID)
             .setContentTitle(title)
             .setContentText(content)
@@ -103,6 +106,7 @@ class GlucoseForegroundService : LifecycleService(), TextToSpeech.OnInitListener
             .setOngoing(true)
             .setCategory(NotificationCompat.CATEGORY_SERVICE)
             .setPriority(NotificationCompat.PRIORITY_MAX)
+            .extend(carExtender)
             .build()
     }
 
